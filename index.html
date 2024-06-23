@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <h1>Sorry, Dear Muskan 😘</h1>
-    <div class="heart">❤️</div>
+    <a href="page.html"><h1>Click Here Dear</h1></a>
+    <div class="heart1">❤️</div>
     <div class="quotes-container">
         <div class="quote-box box1">
             <div class="quote">I'm sorry for the pain I've caused you. I'm committed to making things right.</div>
@@ -47,5 +49,11 @@
             Your browser does not support the video tag.
         </video>
     </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
 </body>
 </html>
